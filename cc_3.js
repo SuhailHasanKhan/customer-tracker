@@ -22,5 +22,9 @@ customers.push({name: 'Ruben Singh', email: 'singhruben@gmail.com',
     purchases: ['Gold Plated Chain', 'Gold Plated Bracelet']
 });
  
+let xyz = customers.shift();
+
+customers[0].email = 'nick123@gmail.com'
+customers[1].purchases.push('Paper Clips')
 
 console.log(customers);

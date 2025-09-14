@@ -26,5 +26,5 @@ let xyz = customers.shift();
 
 customers[0].email = 'nick123@gmail.com'
 customers[1].purchases.push('Paper Clips')
-
-console.log(customers);
+console.log(`CUSTOMER NAME\t|\tCUSTOMER EMAIL\t|\tNUMBER OF PURCHASES`);
+customers.forEach(obj => console.log(`${obj.name}\t|\t${obj.email}\t|\t${obj.purchases.length}`));

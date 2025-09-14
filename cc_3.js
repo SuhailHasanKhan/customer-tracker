@@ -16,4 +16,11 @@ let customers = [
         email: 'burrym@gmail.com',
         purchases: ['Printing Paper', 'Sticky Notes']
     }
-]
+];
+
+customers.push({name: 'Ruben Singh', email: 'singhruben@gmail.com', 
+    purchases: ['Gold Plated Chain', 'Gold Plated Bracelet']
+});
+ 
+
+console.log(customers);
